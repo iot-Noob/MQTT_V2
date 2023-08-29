@@ -7,11 +7,11 @@ const mqtt = require('mqtt');
 const User=require('../models/User');
 const Message = require('../models/Message');
 const brokerOptions = {
-    host: '192.168.18.208', // Remove the mqtt:// protocol
+    host: '', // Remove the mqtt:// protocol
     port: 1883, // Default MQTT port
     clientId: 'mqtt-client', // Client ID to identify the connection
-    username: 'noob', // Replace with your MQTT broker username
-    password: 'talha6295', // Replace with your MQTT broker password
+    username: '', // Replace with your MQTT broker username
+    password: '', // Replace with your MQTT broker password
 };
 let isConnected = false;
 

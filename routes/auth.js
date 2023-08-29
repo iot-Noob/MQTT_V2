@@ -4,7 +4,7 @@ const { body, validationResult } = require('express-validator');
 const router = express.Router();
 const bcrypt = require('bcryptjs'); //import bcrpt
 const jwt = require('jsonwebtoken');
-const JWT_SEC ="Talha@Khalid584970"
+const JWT_SEC =""
 
 const fetchuser=require('../middleware/fetchuser');
 router.post('/createuser', [
